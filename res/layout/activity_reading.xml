@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullscreen_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bookreading.ReadingActivity" >
+
+    <!--
+    android:background="@color/daybg"
+    android:textColor="@color/dayfg"
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. android:textColor="@color/dayfg"
+    -->
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
+        android:gravity="top"
+        android:keepScreenOn="true" />
+
+   <ListView
+        android:id="@+id/toc_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/stars_blue"
+        android:gravity="center" />
+      <ListView
+        android:id="@+id/bm_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/stars_blue"
+        android:gravity="center" />
+<!--
+    <WebView 
+        android:id="@+id/pagebody1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />		
+-->
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" >
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+
+            <GridView
+                android:id="@+id/setting_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:gravity="center"
+                android:horizontalSpacing="20dp"
+                android:numColumns="auto_fit" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</FrameLayout>

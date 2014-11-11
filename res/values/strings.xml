@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">School of Gods Children</string>
+    <string name="title_name">..पाठशाला</string>
+    <string name="chapter">अध्याय-</string>
+    <string name="toc_title">विषयसूची</string>
+    <string name="bookmark_title">बुकमार्क</string>
+    <string name="action_chprev">prev capter</string>
+    <string name="action_pgprev">prev page</string>
+    <string name="action_pgnext">next page</string>
+    <string name="action_chnext">next chapter</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_day_theme">Day Mode</string>
+    <string name="action_night_theme">Night Mode</string>
+    <string name="action_font_size">Font size</string>
+    <string name="action_zoom_in">Zoom in</string>
+    <string name="action_zoom_out">Zoom out</string>
+    <string name="setting_button">Book Settings</string>
+    <string name="toc_itemht">?android:attr/listPreferredItemHeight</string>
+
+</resources>

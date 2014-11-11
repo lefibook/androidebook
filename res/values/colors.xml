@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- <color name="black_overlay">#660000</color> -->
+    <color name="black_overlay">#95B9C7</color>
+    <color name="daybg">#ffffff</color>
+    <color name="dayfg">#000000</color>
+    <color name="nightbg">#000000</color>
+    <color name="nightfg">#ffffff</color>
+    <color name="background">#A0A0A0</color>
+    <color name="listitem_default_color">#A0A0A0</color>
+    <color name="listitem_pressed_color">#FFFFFF</color>
+    <color name="listitem_focused_color">#FFFFFF</color>
+</resources>

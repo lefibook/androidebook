@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >    
+<ImageView 
+    android:id="@+id/action_chprev"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/bkwd_icon"
+    android:layout_margin="5dp"
+    android:layout_weight="1"
+    android:contentDescription="@string/action_chprev"/>
+<ImageView 
+    android:id="@+id/action_chnext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/fwd_icon"
+    android:layout_margin="5dp"
+    android:layout_weight="1"
+    android:contentDescription="@string/action_chnext"/>
+ <TextView
+        android:id="@+id/sub_title"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/title_name"
+        android:textColor="@color/dayfg"
+        android:layout_margin="5dp"
+        android:layout_weight="0"
+        android:keepScreenOn="true" />
+<ImageView 
+    android:id="@+id/action_pgprev"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/up_icon"
+    android:layout_margin="5dp"
+    android:layout_weight="1"
+    android:contentDescription="@string/action_pgprev"/>
+<ImageView 
+    android:id="@+id/action_pgnext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/down_icon"
+    android:layout_margin="5dp"
+    android:layout_weight="1"
+    android:contentDescription="@string/action_pgnext"/>
+
+</LinearLayout>

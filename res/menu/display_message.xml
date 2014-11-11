@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bookreading" >
+       
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_day_theme"
+        android:orderInCategory="101"
+        android:title="@string/action_day_theme"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_night_theme"
+        android:orderInCategory="102"
+        android:title="@string/action_night_theme"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_zoom_in"
+        android:orderInCategory="103"
+        android:title="@string/action_zoom_in"
+        app:showAsAction="always"/>
+    
+     <item
+        android:id="@+id/action_zoom_out"
+        android:orderInCategory="104"
+        android:title="@string/action_zoom_out"
+        app:showAsAction="always"/>
+    
+
+</menu>
